@@ -1,7 +1,8 @@
-version: "1.0"
+version: "3.8"
 services:
     bot:
-        image: nf776/aiogram-template:latest
+        image: change-this-name:latest
+        container_name: and-this-one
         stop_signal: SIGINT
         restart: unless-stopped
         volumes:
