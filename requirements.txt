@@ -1,0 +1,10 @@
+aiogram==3.15.0
+cachetools
+pydantic-settings
+pydantic
+
+fluent.runtime
+fluent.syntax
+
+sqlalchemy
+aiosqlite

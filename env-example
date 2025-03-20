@@ -1,0 +1,19 @@
+# TELEGRAM API SETTINGS
+
+# токен бота
+BOT_TOKEN = ""
+
+#режим обслуживания TRUE or FALSE
+MAINTENANCE_MODE = FALSE
+
+# id админов
+OWNER_ID = [12345678, 87654321]
+
+# аккаунт поддержки (используется при включенном режиме обслуживания)
+SUPPORT_ID = @example_bot
+
+
+
+# DB SETTINGS
+
+SQLALCHEMY_URL = "sqlite+aiosqlite:///db.sqlite3"
