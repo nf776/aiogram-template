@@ -1,10 +1,11 @@
 aiogram==3.15.0
-cachetools
-pydantic-settings
-pydantic
+aiohttp==3.10.11
+cachetools==5.5.2
+pydantic==2.9.2
+pydantic-settings==2.8.1
 
-fluent.runtime
-fluent.syntax
+fluent.runtime==0.4.0
+fluent.syntax==0.19.0
 
-sqlalchemy
-aiosqlite
+SQLAlchemy==2.0.39
+aiosqlite==0.21.0
