@@ -1,0 +1,8 @@
+version: "1.0"
+services:
+    bot:
+        image: nf776/aiogram-template:latest
+        stop_signal: SIGINT
+        restart: unless-stopped
+        volumes:
+            - ".env:/app/.env"
