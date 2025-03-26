@@ -2,6 +2,7 @@
 
 В проекте использовались:
 
+    - Python 3.12
     - Aiogram 3.15
     - SQLAlchemy 2.0 (драйвер sqlite, меняется под вашу базу)
     - Fluent localization
