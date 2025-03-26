@@ -19,7 +19,7 @@ async def set_bot_commands(bot: Bot):
     admin_commands = [
         BotCommand(command="start", description="Перезапуск бота"),
     ]
-    for admin in config.admin_id:
+    for admin in config.owner_id:
         await bot.set_my_commands(
             admin_commands,
             scope=BotCommandScopeChat(chat_id=admin)

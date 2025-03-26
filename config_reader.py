@@ -5,7 +5,7 @@ import pathlib
 class DotEnv(BaseSettings):
     bot_token: SecretStr
     maintenance_mode: bool
-    admin_id: list
+    owner_id: list
     support_id: str
 
     sqlalchemy_url: SecretStr

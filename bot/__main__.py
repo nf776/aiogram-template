@@ -22,7 +22,7 @@ bot = Bot(
 async def main():
     await connect_db()
     await bot.delete_webhook(drop_pending_updates=True)
-    await set_bot_commands()
+    await set_bot_commands(bot=bot)
 
     routers = setup_routers()
     dp.include_router(routers)
