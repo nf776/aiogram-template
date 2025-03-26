@@ -1,8 +1,9 @@
 version: "3.8"
 services:
     bot:
-        image: change-this-name:latest
-        container_name: and-this-one
+        build:
+            context: .
+        container_name: tg-bot-test
         stop_signal: SIGINT
         restart: unless-stopped
         volumes:
