@@ -186,3 +186,5 @@ fabric.properties
 
 # database
 db.sqlite3
+
+.vscode/
