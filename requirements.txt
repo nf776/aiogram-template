@@ -9,5 +9,5 @@ fluent.syntax==0.19.0
 
 SQLAlchemy==2.0.39
 
-// use asyncpg for postgresql
+# use asyncpg for postgresql
 aiosqlite==0.21.0
